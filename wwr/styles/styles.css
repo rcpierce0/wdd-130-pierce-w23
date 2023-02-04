@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rubik:wght@300&display=swap');
+
+:root{
+    --headline-font: "Rock Salt", 'Franklin Gothic Medium';
+    --body-font: Rubik, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +15,7 @@ nav a{
     text-align: center;
     color: #44dffc;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -26,6 +35,10 @@ main section{
     text-align: center;
 }
 
+main section img{
+    border-style: borderbox;
+}
+
 #background{
     height: 750px;
     background-color: #ff0a64;
@@ -33,6 +46,8 @@ main section{
 
 body{
     background-color: #9953e2;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -43,6 +58,10 @@ header{
     background-color: #faea3d;
     color: #ff0a64;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -52,19 +71,30 @@ header{
 
 .msg{
     background-color: #44dffc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: #ff0a64;
+    font-family: var(--headline-font);
 }
 
 .msg p{
     color: #ff0a64;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #ff0a64;
     color: #44dffc;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer a{
@@ -85,7 +115,10 @@ footer p a:hover{
 }
 
 .home-title{
-    color: #9953e2;
+    color: #44dffc;
+    font-family: var(--headline-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -94,8 +127,24 @@ h4{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
+}
+
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
 }
